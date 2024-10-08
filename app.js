@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     /*let bgm = document.getElementById("backgroundMusic");*/
     var bgm = new Audio('https://github.com/SaranTungsagul/SaranTungsagul.github.io/raw/refs/heads/main/music/Blue%20Archive%20OST%2021.%20Midnight%20Trip_compress.flac');
-    
+
     bgm.volume = 0;
     const mute = document.getElementById('muteBtn')
 
@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if(bgm.volume == 0){
             bgm.volume = 0.2;
             bgm.play();
+            bgm.loop = true;
             mute.style.backgroundColor = 'rgba(0,0,0,0.7)';
         }
         else{
