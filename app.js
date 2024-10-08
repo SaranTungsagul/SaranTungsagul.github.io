@@ -1,15 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
     let bgm = document.getElementById("backgroundMusic");
-    bgm.volume = 0.2;
+    bgm.volume = 0;
     const mute = document.getElementById('muteBtn')
 
     mute.addEventListener('mousedown', function(){
-        if(bgm.volume != 0){
+        if(bgm.volume == 0){
+            bgm.volume = 0.2;
             bgm.play();
             mute.style.backgroundColor = 'rgba(0,0,0,0.7)';
         }
         else{
             bgm.pause();
+            bgm.volume = 0
             mute.style.backgroundColor = 'rgba(0,0,0,0)';
         }
     });
