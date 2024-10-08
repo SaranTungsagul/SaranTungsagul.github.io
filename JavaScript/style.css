@@ -1,0 +1,174 @@
+body{
+    background-color: rgb(7, 43, 77);
+    height: 270vh;
+    background-image: url('./images/1920x1080-Wallpaper1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    transition: 0.7s;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(111, 51, 168, 0.45);
+    width: 100%;
+    z-index: 999;
+    padding: -10px 20px;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.expander{
+    font-size: 4.2rem;
+    color: rgba(64, 224, 208, 0);
+    z-index: 999;
+}
+
+.bgmCred{
+    color: white;
+    font-size: 0.9rem;
+}
+.menu{
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 15px; 
+    transition: 0.7s;
+}
+
+.menu a:hover{
+    color: rgb(255, 100, 0);
+    font-size: 2.2rem;
+    transition: 0.7s;
+}
+
+#muteBtn{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 100rem;
+    padding: 0.5rem 0.7rem;
+}
+
+.sect1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.profileInfo{
+    background-color: rgba(219, 88, 0, 0.5);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: -10rem;
+    scale: 0.6;
+    border-radius: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    padding: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.profileInfo img{
+    scale: 0.75 ;
+    border-radius: 1000rem;
+}
+
+.name{
+    font-size: 4rem;
+    margin-top: -0.1rem;
+}
+
+.education{
+    font-size: 1.8rem;
+}
+
+.sect2{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.portHeader{
+    font-size: 5rem;
+}
+
+#rotateImg1{
+    width: 50%;
+    transition: 1s;
+    border-radius: 2rem;
+}
+
+#rotateImg1:hover{
+    scale: 1.3;
+    transition: 1s;
+}
+
+.imgPanel1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.imgPanel1 a{
+    text-decoration: none;
+    font-size: 10rem;
+    margin: 10rem;
+    color: white;
+    transition: 0.7s;
+}
+
+.imgPanel1 a:hover{
+    color: rgb(255, 139, 255);
+    transition: 0.7s;
+}
+
+#rotateImg2{
+    margin-top: 5rem;
+    width: 50%;
+    transition: 1s;
+    border-radius: 2rem;
+}
+
+#rotateImg2:hover{
+    scale: 1.3;
+    transition: 1s;
+}
+
+.imgPanel2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.imgPanel2 a{
+    text-decoration: none;
+    font-size: 10rem;
+    margin: 10rem;
+    color: white;
+    transition: 0.7s;
+}
+
+.imgPanel2 a:hover{
+    color: rgb(255, 139, 255);
+    transition: 0.7s;
+}
