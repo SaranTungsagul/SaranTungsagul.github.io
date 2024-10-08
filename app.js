@@ -1,4 +1,18 @@
 document.addEventListener('DOMContentLoaded', function () {
+    let bgm = document.getElementById("backgroundMusic");
+    bgm.volume = 0.2;
+    const mute = document.getElementById('muteBtn')
+
+    mute.addEventListener('mousedown', function(){
+        if(bgm.volume != 0){
+            bgm.volume = 0;
+            mute.style.backgroundColor = 'rgba(0,0,0,0.7)';
+        }
+        else{
+            bgm.volume = 0.2;
+            mute.style.backgroundColor = 'rgba(0,0,0,0)';
+        }
+    });
     const imgSrcMelon = [
         './images/portfolio/Melon_1.png',
         './images/portfolio/Melon_2.png',
@@ -114,18 +128,4 @@ document.addEventListener('DOMContentLoaded', function () {
         backImg2();
     });
 
-    let bgm = document.getElementById("backgroundMusic");
-    bgm.volume = 0.2;
-    const mute = document.getElementById('muteBtn')
-
-    mute.addEventListener('mousedown', function(){
-        if(bgm.volume != 0){
-            bgm.volume = 0;
-            mute.style.backgroundColor = 'rgba(0,0,0,0.7)';
-        }
-        else{
-            bgm.volume = 0.2;
-            mute.style.backgroundColor = 'rgba(0,0,0,0)';
-        }
-    });
 });
