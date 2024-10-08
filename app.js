@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     mute.addEventListener('mousedown', function(){
         if(bgm.volume != 0){
-            bgm.volume = 0;
+            bgm.play();
             mute.style.backgroundColor = 'rgba(0,0,0,0.7)';
         }
         else{
-            bgm.volume = 0.2;
+            bgm.pause();
             mute.style.backgroundColor = 'rgba(0,0,0,0)';
         }
     });
