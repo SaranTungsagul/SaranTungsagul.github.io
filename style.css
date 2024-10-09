@@ -172,3 +172,19 @@ html{
     color: rgb(255, 139, 255);
     transition: 0.7s;
 }
+
+.gamePanel{
+    display: flex;
+    margin: 10rem;
+    justify-content: center;
+}
+
+#game{
+}
+
+#muteGameBtn{
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 100rem;
+}
