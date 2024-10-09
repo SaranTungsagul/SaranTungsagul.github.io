@@ -1,6 +1,6 @@
 body{
     background-color: rgb(7, 43, 77);
-    height: 270vh;
+    height: 360vh;
     background-image: url('./images/1920x1080-Wallpaper1.jpg');
     background-size: cover;
     background-position: center;
@@ -177,9 +177,6 @@ html{
     display: flex;
     margin: 10rem;
     justify-content: center;
-}
-
-#game{
 }
 
 #muteGameBtn{
